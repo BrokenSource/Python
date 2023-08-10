@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "PythonTemplate"
+version = "2023.8.10"
+description = "Python Projects Template integrated with Broken Framework"
+authors = []
+license = "MIT"
+
+[[tool.poetry.packages]]
+include = "PythonTemplate"
+
+[tool.poetry.dependencies]
+python = ">=3.10,<3.13"
+broken = {path="../../", develop=true}
+
+[tool.poetry.scripts]
+pythontemplate = "PythonTemplate.__main__:main"
