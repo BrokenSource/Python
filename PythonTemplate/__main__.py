@@ -1,5 +1,6 @@
 from PythonTemplate import *
 
+
 def main():
     project = PythonTemplate()
     project.cli()

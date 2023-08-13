@@ -1,6 +1,7 @@
 # Import Broken
 from Broken import *
 
+
 # Create main class
 class PythonTemplate:
     def __init__(self):
